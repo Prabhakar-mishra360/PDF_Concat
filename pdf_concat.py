@@ -15,7 +15,7 @@ except:
             Aborting....")
        exit(0)
        
-# Trying to import PyPDF2, if not it will install automatically
+# Trying to import tqdm, if not it will install automatically
 
 try:
     from tqdm import tqdm
