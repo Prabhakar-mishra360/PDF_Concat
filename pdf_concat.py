@@ -13,7 +13,7 @@ except:
     except:
         print("pip not installed or No Internet Connection!\n \
             Aborting....")
-       exit(0)
+        exit(0)
        
 # Trying to import tqdm, if not it will install automatically
 
