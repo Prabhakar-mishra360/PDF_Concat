@@ -13,7 +13,7 @@ pdf_concat.py [ *.pdf ] ...
 
 ### Examples:
 
- For concatinating pdf files, open terminal (for *nix) or cmd (for Windows) and type below line (supposing we have three files:- file1.pdf, file2.pdf, file3.pdf) that we want to concatinate. In our case python file and all pdf files are present in current working directory, if not so in your case full path of python file and pdf file must be given. 
+ For concatinating pdf files, open terminal (for *nix) or cmd (for Windows) and type below line (supposing we have three files:- file1.pdf, file2.pdf, file3.pdf that we want to concatinate). In our case python file and all pdf files are present in current working directory, if not so in your case full path of python file and pdf file must be given. 
 ```
 pdf_concat.py file1.pdf file2.pdf file3.pdf
 ```
