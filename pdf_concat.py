@@ -1,5 +1,6 @@
 import sys
 import os
+import time
 
 # Trying to import PyPDF2, if not it will install automatically
 
@@ -62,7 +63,7 @@ else:
             #Trying to merge all files
             for file_num in tqdm(range(1,n)):
                 merger.append(sys.argv[file_num])
-            merger.write("OUTPUT_sfhdshbsdhcbdsjcucdbcsjb.pdf")
+            merger.write(f"OUTPUT_{time.time()}.pdf")
 
         except FileNotFoundError:
             print("Some File Not Found")
